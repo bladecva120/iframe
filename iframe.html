@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iframe no HTML</title>
     <style>
-        h1{
+        
+        body {
+            background-color: rgb(24, 109, 81);
+        }
+
+        header>h1,
+        h3 {
+            color: aliceblue;
+            text-shadow: 1.5px 1.5px 3px black;
             text-align: center;
         }
-        iframe{
-            width: 97vw;
+
+        div {
+            width: 50vw;
+            margin: auto;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        iframe {
+            display: block;
+            margin: auto;
+            width: 50%;
+            height: 300px;
             border: 2px solid black;
         }
     </style>
 </head>
+
 <body>
-    <h1>Iframe no HTML</h1>
-    <p>
-        Aproveite para navegar em telas no IFrame
-    </p>
-    <p>
+    <header>
+        <h1>Iframe no HTML</h1>
+        <p>
+        <h3>Aproveite para navegar em telas no IFrame</h3>
+        </p>
+    </header>
+    <main>
+        <div>
         <ul>
-            <li><a href="index.html" target="frame">Clique para a Média de notas</a></li>
-            <li><a href="site-fauna/index.html" target="frame">Clique para ver a nossa fauna</a></li>
-            <li><a href="desafio-cordel/index.html" target="frame">clique para ver o Cordel</a></li>
+            <li>
+                <a href="tabela.html" target="frame">Clique para a Média de notas</a>
+            </li>
+            <li>
+                <a href="fauna/fauna.html" target="frame">Clique para ver a nossa fauna</a>
+            </li>
+            <li>
+                <a href="cordel/cordel.html" target="frame">Clique para ver o Cordel Moderno</a>
+            </li>
         </ul>
-    </p><br><br>
-    <iframe marqee src="imagem-iframe/cubo windows.jpg" name="frame"></iframe>
+    </div>
+        <iframe marqee src="imagem-iframe/cubo windows.jpg" name="frame"></iframe>
+    </main>
 </body>
+
 </html>

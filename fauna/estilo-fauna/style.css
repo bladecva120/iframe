@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(232, 221, 221);
-    background-image: url('../imagens/tigre.jpg');
+    background-image: url('../img-fauna/tigre.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -60,21 +60,21 @@ abbr {
 }
 
 #img02 {
-    background-image: url('../imagens/camaleao.jpg');
+    background-image: url('../img-fauna/camaleao.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 #img03 {
-    background-image: url('../imagens/colibrir.jpg');
+    background-image: url('../img-fauna/colibrir.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 #img04 {
-    background-image: url('../imagens/img-sapo.jpg');
+    background-image: url('../img-fauna/img-sapo.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
